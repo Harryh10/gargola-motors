@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gárgola Motors — Contacto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="container header">
+    <div class="brand">
+      <div class="brand-logo">GM</div>
+      <div class="brand-name">Gárgola Motors</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Productos</a>
+      <a href="quienes_somos.html">Quiénes somos</a>
+      <a href="https://www.unicartagena.edu.co" target="_blank" rel="noopener">UdeC</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contacto</h1>
+    <form class="form" onsubmit="event.preventDefault(); alert('Formulario listo (demo).');">
+      <label>
+        Nombre
+        <input class="input" type="text" name="nombre" placeholder="Tu nombre" required>
+      </label>
+      <label>
+        Correo electrónico
+        <input class="input" type="email" name="correo" placeholder="tucorreo@ejemplo.com" required>
+      </label>
+      <label>
+        Teléfono
+        <input class="input" type="tel" name="telefono" placeholder="+57 300 000 0000">
+      </label>
+      <label>
+        Mensaje
+        <textarea class="textarea" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+      </label>
+      <button class="button" type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer><div class='container'>Desarrollado por: Harry Perez, Faibel Duque</div></footer>
+</body>
+</html>
